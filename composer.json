@@ -1,0 +1,14 @@
+{
+    "name": "pankajkapoor/packages",
+    "description": "testing",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pankaj Kapoor",
+            "email": "pankaj26293@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

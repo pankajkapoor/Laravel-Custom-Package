@@ -1,6 +1,6 @@
 <?php
 
-namespace Pankaj\Timezones;
+namespace PankajKapoor\Timezones;
 
 use App\Http\Controllers\Controller;
 use Carbon\Carbon;

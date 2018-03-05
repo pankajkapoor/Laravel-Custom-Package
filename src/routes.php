@@ -14,4 +14,4 @@
 
 
 
-Route::get('timezones/{timezone?}', 'pankaj\timezones\TimezonesController@index');
+Route::get('timezones/{timezone?}', 'pankajkapoor\timezones\TimezonesController@index');

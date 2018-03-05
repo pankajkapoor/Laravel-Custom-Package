@@ -14,14 +14,13 @@
     "autoload": {
     "psr-4": {
         "PankajKapoor\\Timezones\\": "src/"
-        },
+        }
     },
     "extra": {
     "laravel": {
         "providers": [
             "PankajKapoor\\Timezones\\TimezonesServiceProvider"
-        ],
-        
+        ]
     }
 }
 

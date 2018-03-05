@@ -1,6 +1,6 @@
 {
     "name": "pankajkapoor/packages",
-    "description": "testing",
+    "description": "Demo-package to show time",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -10,5 +10,21 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {},
+    "autoload": {
+    "psr-4": {
+        "PankajKapoor\\Timezones\\": "src/"
+        },
+    },
+    "extra": {
+    "laravel": {
+        "providers": [
+            "PankajKapoor\\Timezones\\TimezonesServiceProvider"
+        ],
+        
+    }
+}
+
+
+    
 }
